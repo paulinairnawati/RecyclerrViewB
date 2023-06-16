@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         _recyclerView1 = (RecyclerView) findViewById(R.id.recyclerView1);
 
         AsyncHttpClient ahc = new AsyncHttpClient();
-        String url = "https://stmikpontianak.net/011100862/tampilmahasiswa.php";
+        String url = "https://stmikpontianak.net/011100862/tampilMahasiswa.php";
 
         ahc.get(url, new AsyncHttpResponseHandler()
         {

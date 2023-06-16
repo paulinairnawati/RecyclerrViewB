@@ -25,4 +25,5 @@ public class MahasiswaViewHolder extends RecyclerView.ViewHolder
         _namaTextView = (TextView) itemView.findViewById(R.id.namaTextView);
         _nimTextView = (TextView) itemView.findViewById(R.id.nimTextView);
     }
+
 }

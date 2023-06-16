@@ -45,20 +45,22 @@
                     android:id="@+id/jkTextView"/>
             </LinearLayout>
         </LinearLayout>
+
         <androidx.cardview.widget.CardView
-            android:layout_width="50dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
             app:cardCornerRadius="5dp"
             app:cardElevation="3dp">
+
             <TextView
+                android:id="@+id/jpTextView"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:background="#0000ff"
-                android:text="TI"
                 android:gravity="center"
+                android:text="TI"
                 android:textColor="#ffffff"
-                android:textSize="25sp"
-                android:id="@+id/jpTextView"/>
+                android:textSize="25sp" />
         </androidx.cardview.widget.CardView>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

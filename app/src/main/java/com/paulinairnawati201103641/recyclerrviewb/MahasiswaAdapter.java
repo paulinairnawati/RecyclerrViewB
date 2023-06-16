@@ -14,9 +14,9 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaViewHolder>
 {
     private List<MahasiswaModel> _mahasiswaModelList;
 
-    public MahasiswaAdapter(List<MahasiswaModel> mahasiswaModelList)
+    public MahasiswaAdapter(List<MahasiswaModel> MahasiswaModelList)
     {
-        this._mahasiswaModelList = mahasiswaModelList;
+        this._mahasiswaModelList = MahasiswaModelList;
     }
 
     @NonNull
@@ -37,7 +37,7 @@ public class MahasiswaAdapter extends RecyclerView.Adapter<MahasiswaViewHolder>
 
         if (mm.getJenisKelamin().toLowerCase().equals("perempuan"))
         {
-            holder._jkImageView.setImageResource(R.drawable.boy);
+            holder._jkImageView.setImageResource(R.drawable.girl);
         }
 
         holder._nimTextView.setText(mm.getNIM());
